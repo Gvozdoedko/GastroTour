@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans&display=swap");
+//const-size
+$minWidth: 320px;
+$MaxWidth: 1600px;
+$MaxWidthContainer: 1170;
+$md1: $MaxWidthContainer + 12 + px;
+$md2: 767.98;
+//const-color
+$firstOrange: #fb784c;
+$secondOrange: #ff7a00;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.App {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: $MaxWidth;
+    height: 100%;
+    .wrapper {
+        margin-left: 215px;
+        margin-right: 215px;
+    }
+}
+
+button {
+    background-color: $secondOrange;
+}
+
+// ._container {
+//     max-width: $MaxWidthContainer + px;
+//     margin: 0 auto;
+//     // border: 1px solid black;
+//     // @media screen and (max-width: $md1) {
+//     //     max-width: 750px;
+//     // }
+// }

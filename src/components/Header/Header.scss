@@ -1,0 +1,52 @@
+.header {
+    width: 1170px;
+    height: 187px;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        width: 262px;
+        height: 94px;
+        background-image: url(./img/logo.svg);
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        width: 348px;
+        height: 30px;
+        margin-top: 17px;
+        align-items: center;
+        text-align: center;
+
+        &__inst,
+        &__facebook {
+            width: 146px;
+            a {
+                font-family: "Montserrat";
+                font-style: normal;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        &__inst {
+            a::before {
+                content: url(./img/instagram.svg);
+                position: relative;
+                top: 10px;
+                right: 10px;
+            }
+        }
+        &__facebook {
+            a::before {
+                content: url(./img/facebook.svg);
+                position: relative;
+                top: 10px;
+                right: 10px;
+            }
+        }
+    }
+}

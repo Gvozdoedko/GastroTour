@@ -1,0 +1,12 @@
+[
+    {
+        "index": 0,
+        "isActive": true,
+        "name": "Ital",
+        "dateNum": "20-25",
+        "dateMonth": "Сентября",
+        "group": 12,
+        "price": "1,399",
+        "numOfDay": 7
+    }
+]
